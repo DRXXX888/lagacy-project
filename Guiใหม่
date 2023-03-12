@@ -1,10 +1,10 @@
 
-_G.Color = Color3.fromRGB(147, 130, 189)
+_G.Color = Color3.fromRGB(245, 7, 181)
 _G.Color2 = Color3.fromRGB(226,127,246)
 _G.FontSizeX = 15 -- Default Value 15
 _G.TitleSizeX = 20 -- Default Value 18
 _G.FontX = "GothamMedium" -- Default Value "Code" | You can try change to other fonts. fonts u can get here https://create.roblox.com/docs/reference/engine/enums/Font
-_G.BackgroundX = "rbxassetid://12665135971"
+_G.BackgroundX = "rbxassetid://5553946656"
 _G.TileSizeX = 3*100 -- Default Value 50
 
 
@@ -12,7 +12,7 @@ local library = {
 		flags = { },
 		items = { }
 	}
-    if _G.Color == nil then _G.Color = Color3.fromRGB(147, 130, 189) end
+    if _G.Color == nil then _G.Color = Color3.fromRGB(245, 7, 181) end
     if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(226, 127, 246) end
     -- Services
 	local players = game:GetService("Players")
